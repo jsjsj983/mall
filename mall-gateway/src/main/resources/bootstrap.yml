@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: mall-gateway
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8333
+        port: 8333
+      # 服务启动直接建立心跳连接
+      eager: true

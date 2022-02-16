@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.seckill.mapper.UmsClientTypeMapper">
+    <select id="selectClientType" parameterType="Long" resultType="com.mall.seckill.dto.UmsClientType">
+        select * from mall.ums_client_type
+    </select>
+</mapper>

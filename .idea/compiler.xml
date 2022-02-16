@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-admin" />
+        <module name="mall-authen (1)" />
+        <module name="mall-monitor" />
+        <module name="mall-common" />
+        <module name="mall-authen" />
+        <module name="mall-gateway" />
+        <module name="mall-admin1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-admin" target="1.8" />
+      <module name="mall-admin (1)" target="1.8" />
+      <module name="mall-admin1" target="1.8" />
+      <module name="mall-auth" target="1.8" />
+      <module name="mall-authen" target="1.8" />
+      <module name="mall-authen (1)" target="1.8" />
+      <module name="mall-common" target="1.8" />
+      <module name="mall-gateway" target="1.8" />
+      <module name="mall-monitor" target="1.8" />
+      <module name="mall-seckill" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-admin" options="-parameters" />
+      <module name="mall-admin (1)" options="-parameters" />
+      <module name="mall-admin1" options="-parameters" />
+      <module name="mall-auth" options="-parameters" />
+      <module name="mall-authen" options="-parameters" />
+      <module name="mall-authen (1)" options="-parameters" />
+      <module name="mall-common" options="-parameters" />
+      <module name="mall-gateway" options="-parameters" />
+      <module name="mall-monitor" options="-parameters" />
+      <module name="mall-seckill" options="-parameters" />
+    </option>
+  </component>
+</project>

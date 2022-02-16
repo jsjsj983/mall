@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mall-admin/mall-admin.iml" filepath="$PROJECT_DIR$/mall-admin/mall-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-admin1/mall-admin1.iml" filepath="$PROJECT_DIR$/mall-admin1/mall-admin1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-authen/mall-authen.iml" filepath="$PROJECT_DIR$/mall-authen/mall-authen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-authen1/mall-authen (1).iml" filepath="$PROJECT_DIR$/mall-authen1/mall-authen (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-common/mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-gateway/mall-gateway.iml" filepath="$PROJECT_DIR$/mall-gateway/mall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-monitor/mall-monitor.iml" filepath="$PROJECT_DIR$/mall-monitor/mall-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-seckill.iml" filepath="$PROJECT_DIR$/mall-seckill.iml" />
+    </modules>
+  </component>
+</project>

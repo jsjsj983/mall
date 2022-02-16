@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.seckill.mapper.UmsClientRelationMapper">
+    <select id="getTypeList" parameterType="Long" resultType="com.mall.seckill.dto.UmsClientType">
+        select r.*
+        from mall.ums_client_type_relation ar left join mall.ums_client_type r on ar.clientTypeId = r.id
+        where ar.client_id = #{clientId}
+    </select>
+</mapper>
